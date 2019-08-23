@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>SITE - Admissions</title>
+      <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <!-- jQuery library -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <!-- Popper JS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <!-- Latest compiled JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+   </head>
+   <body>
+      <div id="nav-placeholder"></div>
+   </body>
+   <script src="//code.jquery.com/jquery.min.js"></script>
+   <script>
+      $.get("static/navigation.html", function(data){
+          $("#nav-placeholder").replaceWith(data);
+      });
+   </script>
+   <br><br><br><br><br>
+   <div class="container">
+      <div class="row justify-content-center">
+         <h2 style="color:rgb(247, 32, 78)">ADMISSIONS</h2>
+      </div>
+   </div>
+   <div class="container">
+      <div class="row justify-content-center">
+         <ul style="color: black;">
+            <li>A candidate should possess the eligibility of 10+2 qualification from the Board of Intermediate, Government of Andhra Pradesh &amp; Telangana, or any other equivalent examination recognized as equivalent thereto, with Mathematics, Physics and Chemistry as his/her optional subjects.</li>
+            <li>In order to step into a four-year degree course in Engineering, a student except those from the NRI quota must qualify in “Engineering, Agricultural Sciences and Medical Common Entrance Test” (EAMCET), a State-Level Entrance Test conducted by the Govt. of Andhra Pradesh. Students who qualify in EAMCET entrance test will be admitted, strictly on merit basis.</li>
+            <li>The Convener of EAMCET admits on merit secured in Intermediate or an equivalent examination and the rank secured in EAMCET.</li>
+            <li>A pass at diploma examination or appearance at 3<sup>rd</sup> Diploma Examination in Engineering conducted by the State Board of Technical Education and Training A.P. or its equivalent thereto. Diploma candidates are eligible to apply for B.Tech Courses only. Or its equivalent thereto. Diploma candidates are eligible to apply for B.E/B.Tech/B.Arch, courses only</li>
+            <li>The Convener of ECET admits 20% of the candidates from the stream of Diploma holders, who should pass in a diploma from Andhra Pradesh State Government or an equivalent examination.</li>
+            <li>The Management admits candidates for the Management quota based on merit and should possess first class in optional subjects: Mathematics, Physics, and Chemistry.</li>
+            <li>Fee Particulars are subject to change from time to time as per the directions in the Government Order.</li>
+            <li>Fee particulars as per convener admissions of B. Tech (duration 4 years), M. Tech (duration 2 years), MBA (duration 2 years), duration 2 years, are mentioned in the table below.</li>
+         </ul>
+      </div>
+   </div>
+   <div class="container">
+      <table class="table">
+         <thead class="thead-dark">
+            <th>S.NO	</th>
+            <th>COURSE</th>
+            <th>SEATS</th>
+            <th>NUM OF YEARS</th>
+         </thead>
+         <thead class="thead-light">
+            <th>1</th>
+            <th>DIPLOMA</th>
+            <th>240</th>
+            <th>3</th>
+         </thead>
+         <tbody>
+            <tr>
+               <td></td>
+               <td>DCE</td>
+               <td>60</td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td></td>
+               <td>DEEE</td>
+               <td>60</td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td></td>
+               <td>DME</td>
+               <td>60</td>
+               <td>3</td>
+            </tr>
+         <thead class="thead-light">
+            <th>1</th>
+            <th>B.Tech</th>
+            <th>240</th>
+            <th>3</th>
+         </thead>
+         <tr>
+            <td></td>
+            <td>CIVIL</td>
+            <td>60</td>
+            <td>4</td>
+         </tr>
+         <tr>
+            <td></td>
+            <td>MECH</td>
+            <td>60</td>
+            <td>4</td>
+         </tr>
+         <tr>
+            <td></td>
+            <td>ECE</td>
+            <td>60</td>
+            <td>4</td>
+         </tr>
+         <tr>
+            <td></td>
+            <td>CSE</td>
+            <td>60</td>
+            <td>4</td>
+         </tr>
+         <thead class="thead-light">
+            <th>3</th>
+            <th>MBA</th>
+            <th>180</th>
+            <th>2</th>
+         </thead>
+         </tbody>
+      </table>
+   </div>
+   <br>
+   <div class="container">
+       <h4>B-TECH ADMISSION PROCEDURE:</h4>
+       <ul>
+           <li>70% of the seats are allotted based on the merit in the EAMCET.</li>
+           <li>30% of the seats are earmarked for NRI candidates.</li>
+           <li>In addition to the above, Diploma holders are admitted in second year of B. Tech to the extent of 10% of intake based on the merit in the ECET, under lateral entry scheme.</li>
+       </ul>
+      <br>
+      <h4>MBA  ADMISSION PROCEDURE:</h4>
+      <ul>
+         <li>70% of the seats are allotted based on the merit in the ICET.</li>
+         <li>30% of the seats are earmarked for NRI candidates.</li>
+      </ul>
+      <br>
+      <h4>M-TECH ADMISSION PROCEDURE:</h4>
+      <ul>
+         <li>Computer Science (CS): B.E / B. Tech in any branch of engineering with valid GATE score.</li>
+         <li>Electronics (VLSI): B. E / B. Tech in Electrical and Electronics Engineering with valid GATE score.</li>
+         <li>DECS: B. E / B. Tech in Electrical and Electronics Engineering with valid GATE score.</li>
+         <li>Power System: B. E / B. Tech in Electrical and Electronics Engineering with valid GATE score.</li>
+         <li>Power Electronics: B. E / B. Tech in Electrical and Electronics Engineering with valid GATE score.</li>
+         <li>Structural Engineering: B. E / B. Tech in Civil Engineering with valid GATE score.</li>
+      </ul>
+   </div>
+   <div id="footer-placeholder"></div>
+   </body>
+   <script src="//code.jquery.com/jquery.min.js"></script>
+   <script>
+      $.get("static/footer.html", function(data){
+          $("#footer-placeholder").replaceWith(data);
+      });
+   </script>
+   </body>
+</html>
