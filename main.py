@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return render_template("index.html")
+    return render_template("home.html")
 
 
 @app.route("/admissions")
@@ -20,13 +20,27 @@ def placements():
 
 @app.route("/contact-us")
 def contact_us():
-    return "Contact us"
+    return render_template("contact-us.html")
 
 
 @app.route("/about-us")
 def about_us():
-    return "About"
+    return render_template("about-us.html")
 
+
+@app.route("/campus-life/library")
+def library():
+    return 'library'
+
+
+@app.route("/campus-life/gallery")
+def gallery():
+    return render_template('gallery.html')
+
+
+@app.route("/campus-life/sports")
+def sports():
+    return 'sports'
 
 
 @app.route("/nav_script")
@@ -35,3 +49,8 @@ def nav_script():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+
+app.add_url_rule("/campus-life",'/library', library)
+app.add_url_rule("/campus-life",'/gallery', gallery)
+app.add_url_rule("/campus-life",'/sports', sports)

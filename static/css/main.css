@@ -103,3 +103,24 @@ body{
 .navbar-collapse {
     padding-right: 15px;
 }
+
+.contact-desc{
+    color: white;
+}
+
+
+.col-md-4{
+    text-align: center;
+}
+.text-center {
+    color: dimgrey;
+}
+
+
+#contact-location-image{
+    object-fit: contain;
+}
+
+.contact-inner, fa fa-map-marker, contact-title{
+color: red;
+}

@@ -3,181 +3,18 @@
    <head>
       <meta charset="UTF-8">
       <title>SITE - Shree Institute of Technical Education</title>
-      <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-       <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
-       <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-      <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-      <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <!-- Latest compiled and minified CSS -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-      <!-- jQuery library -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-      <!-- Popper JS -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-      <!-- Latest compiled JavaScript -->
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
    </head>
    <body>
 
 <div id="nav-placeholder"></div>
-
-</body>
-
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-      <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-      <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <!-- Latest compiled and minified CSS -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-      <!-- jQuery library -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-      <!-- Popper JS -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-      <!-- Latest compiled JavaScript -->
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-      <!------ Include the above in your HEAD tag ---------->
-      <nav class="navbar fixed-top navbar-expand-md custom-navbar navbar-dark">
-         <img class="navbar-brand" src="static/images/nav_logo.jpg" id="logo_custom" width="400px"  alt="logo">
-         <button class="navbar-toggler navbar-toggler-right custom-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-         <span class="navbar-toggler-icon "></span>
-         </button>
-         <div class="collapse navbar-collapse " id="collapsibleNavbar">
-            <ul class="navbar-nav ml-auto ">
-               <li class="nav-item">
-                  <a class="nav-link" href="/"><b>HOME</b></a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="/admissions"><b>ADMISSIONS</b></a>
-               </li>
-               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                  <b>ACADEMICS</b>
-                  </a>
-                  <div class="dropdown-menu">
-                     <a class="dropdown-item" href="#">COMPUTER SCIENCE ENGINEERING</a>
-                     <a class="dropdown-item" href="#">ELECTRICAL & ELECTRONICS ENGINEERING</a>
-                     <a class="dropdown-item" href="#">CIVIL ENGINEERING</a>
-                     <a class="dropdown-item" href="#">MECHANICAL ENGINEERING</a>
-                     <a class="dropdown-item" href="#">ELECTRONICS & COMMUNICATION ENGINEERING</a>
-                  </div>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="/placements"><b>PLACEMENTS</b></a>
-               </li>
-               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                  <b>CAMPUS LIFE</b>
-                  </a>
-                  <div class="dropdown-menu">
-                     <a class="dropdown-item" href="#">LIBRARY</a>
-                     <a class="dropdown-item" href="#">SPORTS</a>
-                     <a class="dropdown-item" href="#">GALLERY</a>
-                  </div>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="/about-us"><b>ABOUT US</b></a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="/contact-us"><b>CONTACT US</b></a>
-               </li>
-            </ul>
-         </div>
-      </nav>
-      <br><br>
-      <div id="demo" class="carousel slide" data-ride="carousel">
-         <!-- Indicators -->
-         <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-         </ul>
-         <!-- The slideshow -->
-         <div class="carousel-inner">
-            <div class="carousel-item active">
-               <img src="{{ url_for('static', filename='images/0.jpeg') }}" alt="College">
-            </div>
-            <div class="carousel-item">
-               <img src="{{ url_for('static', filename='images/2-6.jpg') }}" alt="Guest lecture">
-            </div>
-            <div class="carousel-item">
-               <img src="{{ url_for('static', filename='images/7-1.png') }}" alt="Transpotation">
-            </div>
-         </div>
-         <!-- Left and right controls -->
-         <a class="carousel-control-prev" href="#demo" data-slide="prev">
-         <span class="carousel-control-prev-icon"></span>
-         </a>
-         <a class="carousel-control-next" href="#demo" data-slide="next">
-         <span class="carousel-control-next-icon"></span>
-         </a>
-      </div>
-      <div class="container">
-         <br><br>
-         <h3 align="center" color="#f7204e">WELCOME TO SHREE INSTITUTE OF TECHNICAL EDUCATION</h3>
-         <br>
-         <p style="width:100%">SHREE INSTITUTE OF TECHNICAL EDUCATION has been established in 2008. Around 20acres near Gopalapuram, Our institution is very near to the educational hub Tirupathi, 10 minutes to reach international airport and very near to (Lord shiva temple) Srikalahasti. According to industry needs and requirements we will train our students in Arithmetic & ReasoningWelcome to SHREE INSTITUTE OF TECHNICAL EDUCATION, a platform which combines its rich tradition and history with a forward thinking approach to education. At SHREE, we believe that Education should be a transformational, inspirational, and a life-changing experience.
-         </p>
-         <br>
-         <p>
-            The College was established in 2008, with the aim of providing education based on “sound principle and sound knowledge”, with a dedicated, talented, inspiring staff, fantastic facilities and an impressive rural setting. We balance the pursuit of academic excellence with a broad co-curricular programme. There are all manner of opportunities within and beyond the classroom. As a College within the wider University network JNTU, Ananthapuram, we are a dynamic, fast-growing educational institution that recognises our strategic location in and around 20 acres near gopalapuram. At Shree, the Students are nurtured and challenged to realise their potential.
-         </p>
-      </div>
-
-      <br>
-      <section class="page-section" id="services">
-         <div class="container">
-            <h2 class="text-center mt-0">PORTFOLIO</h2>
-            <hr class="divider my-4">
-            <div class="row">
-               <div class="col-lg-3 col-md-6 text-center">
-                  <div class="mt-5">
-                     <i class="fa fa-users"></i>
-                     <br>
-                     <br>
-                     <h2 class="h5 mb-2">Guest Lectures</h2>
-                     <h2 class="text-muted mb-0">100</h2>
-                  </div>
-               </div>
-               <div class="col-lg-3 col-md-6 text-center">
-                  <div class="mt-5">
-                     <i class="fa fa-calendar"></i>
-                     <br>
-                     <br>
-                     <h2 class="h5 mb-2">National Level Events</h2>
-                     <h2 class="text-muted mb-0">20</h2>
-                  </div>
-               </div>
-               <div class="col-lg-3 col-md-6 text-center">
-                  <div class="mt-5">
-                     <i class="fa fa-male"></i>
-                     <br>
-                     <br>
-                     <h2 class="h5 mb-2">Alumini</h2>
-                     <h2 class="text-muted mb-0">1000</h2>
-                  </div>
-               </div>
-               <div class="col-lg-3 col-md-6 text-center">
-                  <div class="mt-5">
-                     <i class="fa fa-university"></i>
-                     <br>
-                     <br>
-                     <h2 class="h5 mb-2">Placement Drives</h2>
-                     <h2 class="text-muted mb-0">30</h2>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-
 <div id="footer-placeholder"></div>
-
 </body>
 
    <script src="//code.jquery.com/jquery.min.js"></script>
-<script>
-$.get("static/footer.html", function(data){
-    $("#footer-placeholder").replaceWith(data);
-});
-</script>
+   <script>
+   $.get("static/footer.html", function(data){
+       $("#footer-placeholder").replaceWith(data);
+   });
+   </script>
    </body>
 </html>
