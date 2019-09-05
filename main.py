@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
@@ -35,6 +35,7 @@ def library():
 
 @app.route("/campus-life/gallery")
 def gallery():
+    print request
     return render_template('gallery.html')
 
 
@@ -42,10 +43,6 @@ def gallery():
 def sports():
     return 'sports'
 
-
-@app.route("/nav_script")
-def nav_script():
-    return render_template("nav_script.js")
 
 if __name__ == "__main__":
     app.run(debug=True)

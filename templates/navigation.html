@@ -24,7 +24,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
 <nav class="navbar fixed-top navbar-expand-md custom-navbar navbar-dark">
-   <a href="/"><img class="navbar-brand" src="static/images/nav_logo.jpg" id="logo_custom" width="400px"  alt="logo"></a>
+   <a href="/"><img class="navbar-brand" src="{{ url_for('static', filename='images/nav_logo.jpg') }}" id="logo_custom" width="400px"  alt="logo"></a>
    <button class="navbar-toggler navbar-toggler-right custom-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
    <span class="navbar-toggler-icon "></span>
    </button>
@@ -56,9 +56,9 @@
             <b>CAMPUS LIFE</b>
             </a>
             <div class="dropdown-menu">
-               <a class="dropdown-item" href="/campus-life/library">LIBRARY</a>
-               <a class="dropdown-item" href="/campus-life/sports">SPORTS</a>
-               <a class="dropdown-item" href="campus-life/gallery">GALLERY</a>
+               <a class="dropdown-item" href="{{ url_for('library') }}">LIBRARY</a>
+               <a class="dropdown-item" href="{{ url_for('sports') }}">SPORTS</a>
+               <a class="dropdown-item" href="{{ url_for('gallery') }}">GALLERY</a>
             </div>
          </li>
          <li class="nav-item">

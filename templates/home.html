@@ -90,12 +90,7 @@
             </div>
          </div>
       </section>
-      <div id="footer-placeholder"></div>
       <script src="//code.jquery.com/jquery.min.js"></script>
-      <script>
-         $.get("static/footer.html", function(data){
-             $("#footer-placeholder").replaceWith(data);
-         });
-      </script>
+   {% include 'footer.html' %}
    </body>
 </html>

@@ -1,11 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>About Us - Shree Institute of Technical Education</title>
-    <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
-</head>
-<body>
-{% include 'navigation.html'%}
-</body>
+   <head>
+      <meta charset="UTF-8">
+      <title>About Us - Shree Institute of Technical Education</title>
+      <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+   </head>
+   <body>
+      {% include 'navigation.html'%}
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="container">
+         <section id="about" class="section-bg">
+            <!-- Sec Title -->
+               <div class="sec-title centered">
+                  <div class="title">About Us</div>
+                  <div class="separator"><span></span></div>
+               </div>
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-md content wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+                     <p>
+                        Established in 2007, SHREE Educational Society (SES) has entered into two education streams – Engineering and Management. Under Graduate Engineering stream (B.Tech) has been started in 2008, it was received with great enthusiasm from the students, parents and faculty. The Institution started offering Management stream in 2009. Post Graduate Engineering programs were offered beginning 2012-13 academic year. Polytechnic courses are being offered beginning from 2013-14 academic year.
+                     </p>
+                     <p>
+                        Our campus is located in an 18 acre, plush green surroundings, where around 1,200 undergraduate and graduate students receive a focused, technological based education.
+                        Our huge campus enables us to conduct sports events, cultural events, technological and management meets and other events successfully.
+                     </p>
+                     <p>
+                        Accredited by All India Council for Technical Education (AICTE), the Institute offers many nationally recognized, top-ranked programs. Undergraduate and graduate degrees are offered in the Colleges of Engineering and Management respectively. College have not applied for accreditation by NBA.
+                     </p>
+                  </div>
+                  <div class="col-md about-img wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
+                     <img src="{{url_for('static', filename='images/10.jpg')}}" alt="college" width="100%" height="80%" style="object-fit: cover;">
+                  </div>
+               </div>
+            </div>
+         </section>
+      </div>
+      <div class="container">
+         <div id="panel-309-1-0-0" class="so-panel widget widget_text panel-first-child panel-last-child" data-index="1">
+            <div class="panel-widget-style panel-widget-style-for-309-1-0-0">
+               <div class="textwidget">
+                   <!-- Sec Title -->
+                   <div class="sec-title centered">
+                      <div class="title">Welcome message from chairman</div>
+                      <div class="separator"><span></span></div>
+                   </div>
+                  <div class="container-fluid">
+                     <div class="row">
+                        <div class="container-fluid">
+                           <div class="row">
+                              <div class="col-sm-3 col-md-6 col-lg-4">
+                                 <img class="size-full wp-image-1305 alignleft" src="http://www.site.shenoydemo.org/wp-content/uploads/2018/05/chairman.jpg" alt="" width="215" height="284">
+                              </div>
+                              <div class="col-sm-9 col-md-6 col-lg-8">
+                                 <p style="text-align: justify; color: black;">‘Time and Tide’ wait for none. Rapid globalization and hyper competitive markets make it imperative to align engineering and management education to effectively meet the dynamics of the corporate challenges.</p>
+                                 <p style="text-align: justify; color: black;">SHREE being an strategic location, near to many Special Economic Zones (SEZs) there is a lot of demand for engineering and management graduates, with a high level of domain knowledge and core competencies.</p>
+                                 <p style="text-align: justify; color: black;">Right from its inception in 2008, SHREE has maintained sharp focus on its core objective to shape future engineering and business leaders and has consistently been producing students who have made their mark in the corporate world. We are striving and making the right efforts to further improve quality by making our program more industry relevant by reviewing it with industry experts and academic experts from IITs, NITs IIMs and other such B-Schools.</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <p style="text-align: justify; color: black;">SHREE offers specialised courses in the emerging area of polytechnic, B.Tech, and MBA. This has been made possible by highly qualified &amp; experienced faculty and state-off-the art infrastructure. Our education also emphasizes on all-round personality development and interactive practical learning through close interfacing with leading companies to groom our students, SHREE moves ahead into the challenging future with the mission to carry forward its goals and set new milestones in the era of world class modern engineering and management education through Shree Institute of technical education (SITE).</p>
+                  <p style="text-align: justify; color: black;">In this mission, I welcome you to join SHREE and contribute to our odyssey into the<br>
+                     rapidly changing Global engineering&amp;Business Environment.
+                  </p>
+                  <p><img class="size-medium wp-image-1310 alignright" src="http://www.site.shenoydemo.org/wp-content/uploads/2018/05/sign.jpg" alt="" style="object-fit: contain;" width="100" height="150"></p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--      Partners-->
+      <div class="container">
+          <!-- Sec Title -->
+               <div class="sec-title centered">
+                  <div class="title">Our Knowledge Partners</div>
+                  <div class="separator"><span></span></div>
+               </div>
+         <div class="container-fluid" style="padding-top: 50px;">
+            <div class="row" style="text-align: center;">
+               <div class="col-lg" style="align-self: center;">
+                  <img src="{{ url_for('static', filename='images/knowledge-partners/aims-logo.jpg') }}">
+               </div>
+               <div class="col-lg" style="align-self: center;">
+                  <img src="{{ url_for('static', filename='images/knowledge-partners/istd-logo.png') }}">
+               </div>
+               <div class="col-lg" style="align-self: center;">
+                  <img src="{{ url_for('static', filename='images/knowledge-partners/nen-logo.png') }}">
+               </div>
+               <div class="col-lg" style="align-self: center;">
+                  <img src="{{ url_for('static', filename='images/knowledge-partners/prsi-logo.png') }}">
+               </div>
+            </div>
+         </div>
+      </div>
+      <section>
+         <link rel="stylesheet" href="{{ url_for('static', filename='css/about-us.css') }}">
+         <section class="team-page-section">
+            <div class="container">
+               <!-- Sec Title -->
+               <div class="sec-title centered">
+                  <div class="title">Our Advisory Team</div>
+                  <div class="separator"><span></span></div>
+                  <br>
+                  <h5>We have an amazing advising team from different countries who have huge experienced in education and development system.</h5>
+               </div>
+               <div class="row clearfix">
+                  <!-- Team Block -->
+                  <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                     <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <ul class="social-icons">
+                           <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                           <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                           <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                           <li><a href="#"><i class="fa fa-linkedin-in"></i></a></li>
+                        </ul>
+                        <div class="image">
+                           <a href="#"><img src="{{ url_for('static', filename='images/advisory/a1.jpg') }}" alt="venu-gopal" /></a>
+                        </div>
+                        <div class="lower-content">
+                           <h3><a href="#">T VENU GOPAL </a></h3>
+                           <div class="designation">
+                              <p>President</p>
+                              <h5>Shinko Advisors</h5>
+                              <h5>Japan</h5>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Team Block -->
+                  <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                     <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <ul class="social-icons">
+                           <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                           <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                           <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                           <li><a href="#"><i class="fa fa-linkedin-in"></i></a></li>
+                        </ul>
+                        <div class="image">
+                           <a href="#"><img src="{{ url_for('static', filename='images/advisory/a2.jpg') }}" alt="" /></a>
+                        </div>
+                        <div class="lower-content">
+                           <h3><a href="#">DIVYA GOHIL</a></h3>
+                           <div class="designation">
+                              <p>Adjunct Faculty</p>
+                              <h5>Amity University</h5>
+                              <h5>Dubai, UAE</h5>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Team Block -->
+                  <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                     <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <ul class="social-icons">
+                           <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                           <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                           <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                           <li><a href="#"><i class="fa fa-linkedin-in"></i></a></li>
+                        </ul>
+                        <div class="image">
+                           <a href="#"><img src="{{ url_for('static', filename='images/advisory/a3.jpg') }}" alt="" /></a>
+                        </div>
+                        <div class="lower-content">
+                           <h3><a href="#">DR.D.HARSHAVARDHAN</a></h3>
+                           <div class="designation">
+                              <p>Associate Vice-President</p>
+                              <h5>NuTech Biosciences</h5>
+                              <h5>USA</h5>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Team Block -->
+                  <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                     <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <ul class="social-icons">
+                           <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                           <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                           <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                           <li><a href="#"><i class="fa fa-linkedin-in"></i></a></li>
+                        </ul>
+                        <div class="image">
+                           <a href="#"><img src="{{ url_for('static', filename='images/advisory/a4.jpg') }}" alt="" /></a>
+                        </div>
+                        <div class="lower-content">
+                           <h3><a href="#">PROF PRABHAKAR</a></h3>
+                           <div class="designation">
+                              <p>Head-Research Initiatives</p>
+                              <h5>CSIM, Bangalore</h5>
+                              <h5>India</h5>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Team Block -->
+                  <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                     <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <ul class="social-icons">
+                           <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                           <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                           <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                           <li><a href="#"><i class="fa fa-linkedin-in"></i></a></li>
+                        </ul>
+                        <div class="image">
+                           <a href="#"><img src="{{ url_for('static', filename='images/advisory/a5.jpg') }}" alt="" /></a>
+                        </div>
+                        <div class="lower-content">
+                           <h3><a href="#">DR.R.KARTHIKEYAN</a></h3>
+                           <div class="designation">
+                              <p>National President</p>
+                              <h6>Indian Society for Training & Development</h6>
+                              <h5>India</h5>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Team Block -->
+                  <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                     <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <ul class="social-icons">
+                           <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                           <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                           <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                           <li><a href="#"><i class="fa fa-linkedin-in"></i></a></li>
+                        </ul>
+                        <div class="image">
+                           <a href="#"><img src="{{ url_for('static', filename='images/advisory/a6.jpg') }}" alt="" /></a>
+                        </div>
+                        <div class="lower-content">
+                           <h3><a href="#">DURAI RAUJ</a></h3>
+                           <div class="designation">
+                              <p>GM-HR</p>
+                              <h5>Sri Kalahasti Pipes Ltd.</h5>
+                              <h5>India</h5>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </section>
+      <!--      footer-->
+      {% include 'footer.html' %}
+   </body>
 </html>
