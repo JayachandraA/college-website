@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Placements - Shree Institute of Technical Education</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/placements.css') }}">
+    <!--    <link href="{{ url_for('static', filename='js/placements.js') }}" rel="text/javascript">-->
+</head>
+<body>
+{% include 'navigation.html'%}
+<img src="{{ url_for('static', filename='images/placements/placements1.jpg') }}" style="width: 100%; height:600px; object-fit:cover; padding-top:67px">
+<p style="padding:40px;">
+    SITE-Placement Cell concentrates on career exploration, self-assessment, long-term career planning, and developing networking skills, in addition to job search strategies for the short-term. Along with an intense focus on students’ success, the Placement Cell is committed to creating and maintaining positive relationships with corporate employers. SITE-TPC team manages active relationships with companies that recruit students, working to ensure that the recruiting process is smooth, hassle-free and rewarding. In concert with administration, faculty-corporate relations and students, the TPC works continually to bring new companies on-Grounds and to expand existing relationships. The TPC also maintains an intranet that facilitates many technical aspects of the job search, allowing students to manage their search electronically from computers on-Grounds or online. Using the TPC site, students can research companies and contacts, search for employment opportunities, apply for jobs, sign up for company presentations, schedule on-Campus interviews and much more.
+</p>
+<!-- Sec Title -->
+               <div class="sec-title centered">
+                  <div class="title">NEWS & EVENTS</div>
+                  <div class="separator"><span></span></div>
+               </div>
+<div class="row" style="padding:40px;">
+    <div class="col-sm-3 col-md-6 col-lg-4">
+        <img src="{{ url_for('static', filename='images/placements/placements2.jpg') }}" style="width: 100%; object-fit:cover;">
+    </div>
+    <div class="col-sm-9 col-md-6 col-lg-8">
+        <h3>WE ARE AVAILABLE TO ASSIST YOU WITH</h3>
+        <li>Choosing a major and developing career goals</li>
+        <li>Obtaining career information and resources</li>
+        <li>Conducting industry and organizational related training</li>
+        <li>Developing Projects</li>
+        <li>Learning job search techniques</li>
+        <li>Post-Graduate College application and selection</li>
+        <li>Resume preparation</li>
+        <li>Developing interview skills</li>
+        <li>Finding full-time, part-time and internship opportunities</li>
+    </div>
+</div>
+<!-- Sec Title -->
+               <div class="sec-title centered">
+                  <div class="title">OUR STUDENTS PLACED AT</div>
+                  <div class="separator"><span></span></div>
+               </div>
+
+<div class="slider">
+         <div class="slide-track">
+            <div class="slide">
+               <img src="{{ url_for('static', filename='images/placements/company/p1.png') }}" alt="p" class="com-logo">
+            </div>
+            <div class="slide">
+               <img src="{{ url_for('static', filename='images/placements/company/p2.png') }}" alt="p" class="com-logo">
+            </div>
+            <div class="slide">
+               <img src="{{ url_for('static', filename='images/placements/company/p3.png') }}" alt="p" class="com-logo">
+            </div>
+            <div class="slide">
+               <img src="{{ url_for('static', filename='images/placements/company/p4.png') }}" alt="p" class="com-logo">
+            </div>
+            <div class="slide">
+               <img src="{{ url_for('static', filename='images/placements/company/p5.png') }}" alt="p" class="com-logo">
+            </div>
+            <div class="slide">
+               <img src="{{ url_for('static', filename='images/placements/company/p6.png') }}" alt="p" class="com-logo">
+            </div>
+            <div class="slide">
+               <img src="{{ url_for('static', filename='images/placements/company/p7.png') }}" alt="p" class="com-logo">
+            </div>
+            <div class="slide">
+               <img src="{{ url_for('static', filename='images/placements/company/p8.png') }}" alt="p" class="com-logo">
+            </div>
+            <div class="slide">
+               <img src="{{ url_for('static', filename='images/placements/company/p9.png') }}" alt="p" class="com-logo">
+            </div>
+            <div class="slide">
+               <img src="{{ url_for('static', filename='images/placements/company/p10.png') }}" alt="p" class="com-logo">
+            </div>
+            <div class="slide">
+               <img src="{{ url_for('static', filename='images/placements/company/p11.png') }}" alt="p" class="com-logo">
+            </div>
+            <div class="slide">
+               <img src="{{ url_for('static', filename='images/placements/company/p12.png') }}" alt="p" class="com-logo">
+            </div>
+            <div class="slide">
+               <img src="{{ url_for('static', filename='images/placements/company/p13.png') }}" alt="p" class="com-logo">
+            </div>
+            <div class="slide">
+               <img src="{{ url_for('static', filename='images/placements/company/p14.png') }}" alt="p" class="com-logo" width="100%">
+            </div>
+         </div>
+      </div>
+{% include 'footer.html' %}
+</body>
+</html>

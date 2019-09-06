@@ -15,7 +15,7 @@ def about():
 
 @app.route("/placements")
 def placements():
-    return "Placements"
+    return render_template('placements.html')
 
 
 @app.route("/contact-us")
@@ -30,12 +30,16 @@ def about_us():
 
 @app.route("/campus-life/library")
 def library():
-    return 'library'
+    return render_template('library.html')
+
+
+@app.route('/2048')
+def game_2048():
+    return render_template('2048-game.html')
 
 
 @app.route("/campus-life/gallery")
 def gallery():
-    print request
     return render_template('gallery.html')
 
 
@@ -48,6 +52,6 @@ if __name__ == "__main__":
     app.run(debug=True)
 
 
-app.add_url_rule("/campus-life",'/library', library)
-app.add_url_rule("/campus-life",'/gallery', gallery)
-app.add_url_rule("/campus-life",'/sports', sports)
+app.add_url_rule("/campus-life", '/library', library)
+app.add_url_rule("/campus-life", '/gallery', gallery)
+app.add_url_rule("/campus-life", '/sports', sports)

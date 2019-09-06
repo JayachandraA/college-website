@@ -4,7 +4,7 @@ body{
     font-style: normal;
 }
 .custom-navbar {
-	box-shadow: 1px 1px 1px #eee;
+	box-shadow: 1px 0.5px 1px #efefef;
 	z-index: ;
 	background-color: #fff;
 }

@@ -3,8 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Library - Shree Institute of Technical Education</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
 </head>
 <body>
-
+{% include 'navigation.html'%}
+<div class="container">
+    <img src="{{ url_for('static', filename='images/library.jpg') }}" style="padding-top: 70px; width:100%; height: 700px; object-fit: cover;">
+    <div class="row" style="padding-top: 40px;">
+        <div>
+            <h2>LIBRARY CATALOG</h2>
+            <h5><li>Engineering</li></h5>
+            <h5><li>Engineering Research</li></h5>
+            <h5><li>Journals & eJournals</li></h5>
+            <h5><li>Engineering Case Studies</li></h5>
+            <h5><li>New Books</li></h5>
+            <h5><li>Management & Software</li></h5>
+            <h5><li>IEEE Xplore</li></h5>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <p style="padding-top: 40px;">Library plays a vital role in the life of an institution. Rich library is an asset to the institution. SITE has a well established library with good internet facility.</p>
+    <p>Library is an integral part of our Academic centre of excellence for Teaching and Learning. This is designed to assist multidisciplinary curriculum and concept centric demonstrations concerning practices and programs that promote teaching and learning skills among faculty and students; and to research to improve innovation.</p>
+    <p>Many new dimensions have been added to the library. The computer has swept the library in all its operations storage and dissemination of information. The college is satisfied with the achievements of the library.</p>
+</div>
+{% include 'footer.html'%}
 </body>
 </html>
