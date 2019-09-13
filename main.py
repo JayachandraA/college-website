@@ -49,7 +49,7 @@ def sports():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
 
 
 app.add_url_rule("/campus-life", '/library', library)
